@@ -1,0 +1,71 @@
+
+table {
+    font-size: 0.8em;
+    text-align: center;
+      
+}
+
+table tbody tr td {
+    column-width: 150px;
+}
+
+
+table .wd-table-student {
+    text-align: left;
+    column-width: 200px; 
+    color: rgb(214, 4, 4);
+} 
+
+.table-striped>tbody>tr:nth-of-type(odd)>*.wd-table-student {
+    --bs-table-accent-bg: var(--bs-table-striped-bg);
+    color: rgb(214, 4, 4);
+}
+
+.wd-buttons-align{
+    align-items: left;
+}
+
+.input-group-text {
+    display: flex;
+    align-items: center;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #ffffff;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-top-width: 1px;
+    border-right-width: 0px;
+    border-bottom-width: 1px;
+    border-left-width: 0px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: rgb(206, 212, 218);
+    border-right-color: rgb(206, 212, 218);
+    border-bottom-color: rgb(206, 212, 218);
+    border-left-color: rgb(206, 212, 218);
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+}

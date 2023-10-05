@@ -1,0 +1,47 @@
+a {
+    text-decoration: none;
+}
+
+.wd-cards-logo {
+    height: 180px
+
+}
+
+.wd-card-title {
+    color: rgb(0, 102, 255);
+}
+
+.wd-card-text1 {
+    font-size: 1em;
+    /* color: rgb(150, 150, 144); */
+
+}
+
+.wd-card-text2 {
+    font-size: .8em;
+    
+}
+
+.wd-card-colorgrey {
+    color: rgb(150, 150, 144);
+}
+
+.wd-card-padding {
+    padding-bottom: 30px;
+    padding-right: 0px;
+}
+
+.wd-heading-2 {
+    padding-top: 10px;
+    /* padding-bottom: 10px; */
+}
+
+hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.row {
+    /* --bs-gutter-x: 1.5rem; */
+    --bs-gutter-x: 0px;
+}

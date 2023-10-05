@@ -1,0 +1,41 @@
+.wd-profile-head {
+    padding: 40px;
+}
+
+.wd-profile-icon {
+    color: rgb(187, 187, 180);
+    font-size: 120px;
+    padding: 10px   ;
+}
+
+.wd-profile-name{
+    font-size: 2em;
+    padding-bottom: 15px;
+    margin: 10px;
+}
+
+.wd-profile-headings {
+    font-size: 1.5em;
+    padding-top: 10px;
+    margin-left: 10px;
+}
+
+.wd-profile-texts {
+    margin-left: 10px;
+    /* padding-top: 30px; */
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-size: 0.9em;
+
+}
+
+.wd-profile-hyperlink {
+    text-decoration: none;
+}
+
+.wd-profile-hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px
+}

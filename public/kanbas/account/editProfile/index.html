@@ -1,4 +1,104 @@
-<h1>Isa Laura</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Profile</title>
+    <link rel="stylesheet" href="/kanbas/styles.css">
+    <link rel="stylesheet" href="/kanbas/account/editProfile/screen.css">
+    <link rel="stylesheet" href="/vendors/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="/vendors/bootstrap-5.1.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/kanbas/kanbasNavigation/index.css">
+    <link rel="stylesheet" href="/kanbas/courses/courseNavigation/index.css">
+    <link rel="stylesheet" href="/kanbas/account/editProfile/screen.css">
+</head>
+<body>
+    
+    <form action="/kanbas/account/profile/screen.html">
+        <div class="wd-flex-row-container">
+            <div class="col-2 wd-profile-icon wd-editprofile-col1">
+                <i class="fa fa-user-circle-o " aria-hidden="true"></i>
+            </div>
+            <div class="wd-flex-grow-1 wd-editprofile-col2">
+                <!-- <form action="/kanbas/account/profile/screen.html"> -->
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name:*</label>
+                        <input type="text" class="form-control" id="name" value="Isa Laura">               
+                    </div>
+                    <div class="mb-3">
+                        <label for="pronouns" class="form-label">Pronouns:*</label>
+                        <select name="" class="form-control" id="pronouns">
+                            <option value="None">None</option>
+                            <option value="None">She/Her</option>
+                            <option value="None">Him/His</option>
+                            <option value="None">Them/They</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="title" class="form-label">Title</label>
+                        <input type="text" id="title" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label for="contact" class="form-label wd-profile-headings">Contact</label>
+                        <br>
+                        <form-text id="contact" class="wd-profile-texts">No registered services, you can add some on the <a class="wd-profile-hyperlink wd-fg-kanbasred" href="#">settings</a> page.</form-text>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label wd-profile-headings" for="biography">Biography</label>
+                        <textarea class="form-control" id="biography" cols="55" rows="3">
+                        Faculty, Software Engineer, AI, Space and renewables enthusiast.
+                        </textarea>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label wd-profile-headings" for="links">Links</label>
+                        <div class="container text-center">
+                            <div class="row">
+                            <div class="col">
+                                <h3>Title</h3>
+                            </div>
+                            <div class="col">
+                                
+                            </div>
+                            <div class="col">
+                                <h3>URL</h3>
+                            </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <input class="form-control" type="text" id="type" value="YouTube">
+                                </div>
+                                <div class="col">
+                                    &#x2192;
+                                </div>
+                                <div class="col">
+                                    <input class="form-control" type="text" id="link" value="https://www.youtube.com/">
+                                    <i class="fa fa-times wd-fg-kanbasred" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                            
+                            <div class="col float-start">
+                                <button class="btn btn-light">Add another link</button>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="mb-3 float-end">
+                        <button class="btn btn-light" type="submit" action="/kanbas/account/profile/screen.html">Cancel</button>
+                        <button class="btn btn-danger" type="submit" action="/kanbas/account/profile/screen.html">Save Profile</button>                    
+                    </div>
+            </div>
+            <div class="col-2.5 wd-editprofile-col3">
+                <button class="btn btn-light" type="submit" action="/kanbas/account/profile/screen.html">&#x270E;Cancel Editing</button>
+            </div>
+        </div>
+    </form>
+    
+</body>
+</html>
+
+
+<!-- <h1>Isa Laura</h1>
+
 <form action="/kanbas/account/profile/screen.html">
     <label for="name">Name:*</label>
     <input type="text" id="name" value="Isa Laura">
@@ -41,5 +141,5 @@
     <br>
     <button>Edit Profile</button>
     <button>Cancel Editing</button>
-</form>
+</form> -->
 

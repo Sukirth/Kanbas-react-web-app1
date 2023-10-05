@@ -1,0 +1,36 @@
+.nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: rgb(214, 4, 4);
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
+.nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: rgb(214, 4, 4);
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+    transition-behavior: normal, normal, normal;
+    transition-duration: 0.15s, 0.15s, 0.15s;
+    transition-timing-function: ease-in-out, ease-in-out, ease-in-out;
+    transition-delay: 0s, 0s, 0s;
+    transition-property: background-color, background-color, background-color;
+}
+
+p {
+
+    font-style: italic;
+    
+    color: rgb(80, 80, 80);
+    text-indent: 20px;
+}
+
+.list-group-item {
+    
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: rgba(0, 0, 0, 0.125);
+    ;
+}

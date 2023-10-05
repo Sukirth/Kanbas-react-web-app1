@@ -1,0 +1,72 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+body * {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+
+}
+
+.wd-select-button {
+
+    background-color: rgb(214, 4, 4);
+    color: white;
+}
+
+.wd-bg-color-black {
+    background-color: black;
+}
+
+.wd-flex-row-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.wd-flex-grow-1 {
+    flex-grow: 1;
+}
+
+.wd-flex-col-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.wd-fg-kanbasred {
+    color: rgb(214, 4, 4);
+}
+
+.wd-fg-kanbasgrey {
+    color: rgb(187, 187, 180);
+}
+
+.wd-settings-nav {
+    color: rgb(214, 4, 4);
+}
+
+.wd-nav-active {
+    color: black;
+}
+
+.wd-logo{
+    width: 80px;
+    height: 80px;
+}
+
+.wd-icon-green {
+    color: rgb(67, 182, 92);
+}
+
+.breadcrumb {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.fa.fa-user {
+    color: rgb(230, 230, 230)
+
+}

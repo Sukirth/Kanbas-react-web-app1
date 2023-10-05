@@ -1,0 +1,17 @@
+.wd-header-text {
+    color: rgb(117, 117, 115);
+    font-size: 2em;
+    padding-top: 10px;
+    /* padding-bottom: 10px; */
+    
+}
+
+.wd-header-layout {
+    margin-left: 10px;
+}
+
+.wd-below-header-content {
+    margin-left: 10px;
+    padding-left: 20px;
+}
+

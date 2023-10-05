@@ -1,0 +1,10 @@
+.wd-modules-head {
+    display: flex;
+    justify-content: right;
+    
+}
+
+.wd-modules-head div{
+    margin: 5px
+}
+
