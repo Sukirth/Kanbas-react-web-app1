@@ -1,0 +1,49 @@
+button.wd-select-button {
+
+    background-color: rgb(214, 4, 4);
+    color: white;
+}
+
+.wd-publish-checkCircle {
+    color: rgb(67, 182, 92);
+    /* color: white; */
+}
+
+.wd-fg-kanbasred {
+    color: rgb(214, 4, 4);
+}
+
+/* button.btn-outline-secondary.disabled, .btn-outline-secondary:disabled, .btn {
+    color: white;
+    background-color: #58b477;
+} */
+
+button.btn:disabled, .btn.disabled, fieldset:disabled .btn .wd-publish-btn {
+    color: white;;
+    pointer-events: none;
+    background-color: #58b477;
+    border-color: var(--bs-btn-disabled-border-color);
+    opacity: var(--bs-btn-disabled-opacity);
+}
+
+
+element.style {
+}
+.list-group-item + .list-group-item {
+    border-top-width: 0;
+}
+.mb-5 {
+    margin-bottom: 3rem !important;
+}
+.align-items-center {
+    align-items: center !important;
+}
+.justify-content-between {
+    justify-content: space-between !important;
+}
+.d-flex {
+    display: flex !important;
+}
+.list-group-item.wd-modules {
+    background-color: rgb(211, 211, 211);
+}

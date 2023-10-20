@@ -1,0 +1,44 @@
+.wd-flex-row-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.wd-flex-grow-1 {
+    flex-grow: 1;
+}
+
+.btn.wd-publish-btn {
+    background-color: rgb(67, 182, 92);
+    color: white;
+}
+
+.wd-btn-text-align {
+    text-align: left;
+}
+
+.btn-outline-secondary.disabled, .btn-outline-secondary:disabled {
+    color: white;
+    background-color: #58b477;
+}
+
+@media screen and (max-width: 768px) {
+
+    .wd-sidebar{
+        display: none;
+    }
+
+    .wd-account-navigation {
+        display: none;
+    } 
+
+    .wd-home-container {
+        flex-direction: column;
+        width: 100%;
+        float: none;
+    } 
+
+    .wd-course-bar{
+        display: none;
+    }  
+    
+}

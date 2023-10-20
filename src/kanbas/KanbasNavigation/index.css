@@ -1,0 +1,55 @@
+.list-group.wd-kanbas-navigation{
+    width: 85px;
+    margin: 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+.wd-logo{
+    width: 85px;
+    height: 85px;
+}
+
+.list-group-item.wd-kanbas-nav-list {
+    display: flex;
+    flex-direction: column;       
+    background-color: black;
+    color: rgb(214, 4, 4);
+    border-top-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+    padding-left: 5px;
+    font-size: .9em;
+    text-align: center;
+
+}
+
+.list-group-item.active.wd-kanbas-nav-list {
+    background-color: #fff;
+    color: rgb(214, 4, 4);
+}
+
+.list-group-item.wd-kanbas-nav-list svg {
+    font-size: 20px;
+    margin-left: 30px;  
+    margin-bottom: 5px; 
+}
+/* .list-group .list-group-item svg {
+    
+    font-size: 20px;
+    margin-left: 30px;  
+    margin-bottom: 5px; 
+    
+} */
+/* 
+.wd-kanbas-icons svg {
+    color: rgb(214, 4, 4);
+} */
+
+.wd-account-icon {
+    color: grey;
+
+}

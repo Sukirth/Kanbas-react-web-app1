@@ -5,16 +5,17 @@ body {
 
 }
 
+.wd-account-icon {
+    color: rgb(230, 230, 230)
+
+}
+
 .wd-kanbas-navigation{
-    background-color: black;
+    /* background-color: black;
     list-style: none;
-    padding: 0px;
+    padding: 0px; */
     width: 85px;
     margin: 0px;
-    
-
-     
-
 }
 
 .wd-kanbas-navigation li {

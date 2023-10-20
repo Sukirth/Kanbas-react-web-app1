@@ -1,0 +1,117 @@
+.trending-button1{  
+    border-radius: 25px;
+    border: 1px solid #b3aeae;
+    width: 150px;
+    height: 40px;
+    color: black;
+}
+
+.wd-icon-green {
+    color: rgb(67, 182, 92);
+}
+
+.breadcrumb {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+body div .wd-flex-grow-1 form {
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+body div li span {
+    color: grey;
+    font-size: .8em;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 150px;
+    display: block;
+    overflow: hidden;
+  
+}
+
+button {
+    border: none;
+    background-color: white;
+    color: rgb(214, 4, 4);
+}
+
+.wd-select-button {
+
+    background-color: rgb(214, 4, 4);
+    color: white;
+}
+
+.container-fluid {
+    padding-left: 0px;
+}
+
+.wd-bc-text {
+
+    padding-left: 15px;
+    text-decoration: none;
+    white-space: nowrap;
+    display: block;
+    color: rgb(214,4,4);
+}
+
+
+
+.wd-container {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.list-group-item {
+    
+    border-left-width: 4px;
+    border-left-style: solid;
+    border-left-color: rgb(67, 182, 92);
+}
+
+.list-group-item-heading {
+    
+    background-color: #ececec;
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: rgba(0, 0, 0, 0.125);
+}
+
+div .fw-light {
+
+    font-size: .9em;
+    color: rgb(116, 116, 116);
+}
+
+.wd-padding-20-right {
+    padding-right: 20px;
+}
+
+.wd-padding-20-left {
+    padding-left: 20;
+}
+
+.wd-padding-2-right {
+    padding-left: 2;
+}
+
+
+.wd-border-left {
+    border-left: +5px solid rgb(67, 182, 92);
+    /* border-color: rgb(67, 182, 92); */
+    
+}
+
+.wd-publish-checkCircle {
+    color: rgb(67, 182, 92);
+    /* color: white; */
+}
+
+.list-group-item.wd-heading {
+    background-color: rgb(211, 211, 211);
+}

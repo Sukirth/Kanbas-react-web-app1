@@ -1,0 +1,71 @@
+.list-group-item.wd-course-nav {
+    background-color: #fff;
+    color: rgb(214,4,4);
+    padding-left: 5px;
+    border-top-color: white;
+    border-bottom-color: #fff;
+    border-right-color: #fff;
+    border-left-color: #fff;
+    border-radius: 0%;
+    border-bottom-right-radius:initial;
+    border-bottom-left-radius:initial;
+}
+
+.list-group-item.active.wd-course-nav{
+    
+    color: black;
+    background-color: #fff;
+    border-top-color: white;
+    border-bottom-color: #fff;
+    border-right-color: #fff;
+    border-left-color: black;
+    border-left-width: 2px;
+    border-bottom-right-radius:initial;
+    border-bottom-left-radius:initial;
+    border-top-right-radius:initial;
+    border-top-left-radius:initial;
+
+
+    /* border-left-color: black; */
+    /* border-left-width: 2px ;
+    border-left-color: black;
+    background-color: #fff;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    --bs-list-group-active-border-color: none; */
+    
+
+
+    /* border-top-color: none;
+    border-top-style: ;
+    border-top-width: 0;
+    border-right-color: ;
+    border-right-style: ;
+    border-right-width: 0;
+    border-bottom-color: ;
+    border-bottom-style: ;
+    border-bottom-width: 0;
+    border-left-color: ;
+    border-left-style: ;
+    border-left-width: 0;
+    border-image-source: ;
+    border-image-slice: ;
+    border-image-width: ;
+    border-image-outset: ; */
+
+
+}
+
+.wd-courseNav-spanText {
+    color: grey;
+    font-size: .8em;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 150px;
+    display: block;
+    overflow: hidden;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
