@@ -40,6 +40,10 @@ button {
     color: rgb(214, 4, 4);
 }
 
+.wd-text {
+    color: rgb(185, 1, 1);;
+}
+
 .wd-select-button {
 
     background-color: rgb(214, 4, 4);
@@ -67,7 +71,7 @@ button {
     
 }
 
-.list-group-item {
+Link.list-group-item {
     
     border-left-width: 4px;
     border-left-style: solid;
@@ -101,7 +105,7 @@ div .fw-light {
 }
 
 
-.wd-border-left {
+.list-group-item.wd-border-left {
     border-left: +5px solid rgb(67, 182, 92);
     /* border-color: rgb(67, 182, 92); */
     

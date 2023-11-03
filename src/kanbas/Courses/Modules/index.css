@@ -47,3 +47,9 @@ element.style {
 .list-group-item.wd-modules {
     background-color: rgb(211, 211, 211);
 }
+
+li.wd-border-left {
+    border-left: +5px solid rgb(67, 182, 92);
+    /* border-color: rgb(67, 182, 92); */
+    
+}

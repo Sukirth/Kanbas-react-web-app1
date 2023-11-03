@@ -32,7 +32,7 @@ function Assignments() {
                 <div>
                     <FaGripVertical className="me-2"/>
                     <FaCaretDown className="me-1"/>
-                    <b>Assignments</b>
+                    <b>ASSIGNMENTS</b>
                 </div>
                 <div>
                     <button className="trending-button1">40% of total</button>
@@ -42,17 +42,17 @@ function Assignments() {
             </li>
 
             {courseAssignments.map((assignment) => (
-                    <Link
+                  <Link
                     key={assignment._id}
                     to={`/Kanbas/Courses/${courseId}/Assignments/${assignment._id}`}
-                    className="list-group-item d-flex justify-content-between">                 
-                        <div className="d-flex justify-content-between">
+                    className="list-group-item d-flex justify-content-between wd-border-left">                 
+                        <div className="d-flex justify-content-between ">
                             <FaGripVertical className="me-3 mt-3"/>
                             <FaRegEdit className="me-3 mt-3 wd-publish-checkCircle"/>
                             <span>
                               <div className="fs-5">{assignment.title}</div>
-                              <div className="fw-light">Week 0 - SETUP -Week starting on Monday September 5th (9/5/2022) Module | </div>
-                              <div className="fw-light">Due Sep 18, 2022 at 11:59pm | 100 pts</div>
+                              {/* <div className="fw-light"></div> */}
+                              <div className="text-muted"><span className="wd-text">Multiple Modules</span> | Due Sep 18, 2022 at 11:59pm | 100 pts</div>
                             </span>                       
                             
                         </div>
@@ -60,7 +60,7 @@ function Assignments() {
                             <FaRegCircleCheck className="me-2 mt-3 wd-publish-checkCircle"/>
                             <FaEllipsisVertical className="mt-3"/>
                         </div>  
-                    </Link>
+                  </Link>
             ))}
                               
         </ul>
