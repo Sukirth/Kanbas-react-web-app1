@@ -2,7 +2,7 @@ import { Link, Route, Routes, useLocation } from "react-router-dom";
 import store from "./Store";
 import { Provider } from "react-redux";
 import Lab4 from "./a4/Lab4";
-import Lab5 from "./Lab5/Lab5";
+import Lab5 from "./a5/Lab5";
 import Lab3 from "./a3";
 import Kanbas from "../kanbas/index";
 
