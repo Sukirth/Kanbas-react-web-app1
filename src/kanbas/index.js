@@ -11,8 +11,8 @@ import axios from "axios";
 function Kanbas() {
   
   const [courses, setCourses] = useState([]);
-  // const URL = "http://localhost:4000/api/courses";
-  const URL = "https://kanbas-node-server-app-5eyi.onrender.com/api/courses";
+  const URL = "http://localhost:4000/api/courses";
+  // const URL = "https://kanbas-node-server-app-5eyi.onrender.com/api/courses";
   const findAllCourses = async () => {
     const response = await axios.get(URL);
     setCourses(response.data);
@@ -106,13 +106,9 @@ function Kanbas() {
             } />
             {/* <Route path="Courses/*" element={<h1>Courses</h1>} /> */}
             <Route path="Courses/:courseId/*" element={<Courses courses={courses} />} />    
-
          </Routes>   
       </div>
       </Provider>
-
-         
-
     );
  }
 export default Kanbas;

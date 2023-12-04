@@ -14,8 +14,8 @@ import Grades from "../Grades";
 
 function Courses({ courses }) {
   const [course, setCourse] = useState({});
-  // const URL = "http://localhost:4000/api/courses";
-  const URL = "https://kanbas-node-server-app-5eyi.onrender.com/api/courses";
+  const URL = "http://localhost:4000/api/courses";
+  // const URL = "https://kanbas-node-server-app-5eyi.onrender.com/api/courses";
   const { courseId } = useParams();
   const { pathname } = useLocation();
   const lastItem = pathname.substring(pathname.lastIndexOf('/') + 1);

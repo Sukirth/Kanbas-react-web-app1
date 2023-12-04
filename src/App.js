@@ -7,6 +7,7 @@ import { HashRouter, Link, Navigate, Route, Routes, useLocation } from 'react-ro
 import Navs from './Navs';
 import LabNav from './Labs/LabsNav';
 import Kanbas from './kanbas';
+import Project from './kanbas/Project';
 
 
 function App() {
@@ -26,6 +27,8 @@ function App() {
           <Route path="/hello" element={<HelloWorld/>}/>
           <Route path="/Labs/*" element={<LabNav/>}/>
           <Route path="/Kanbas/*" element={<Kanbas/>}/>
+          {/* <Route path="/Signin" element={<Signin />} /> */}
+          <Route path="/Project/*" element={<Project/>} />
         </Routes>  
 
       </div>
