@@ -3,36 +3,32 @@
 // import Labs from './Labs/index';
 import HelloWorld from './Labs/a3/HelloWorld';
 // import Kanbas from './kanbas';
-import { HashRouter, Link, Navigate, Route, Routes, useLocation } from 'react-router-dom';
+import { HashRouter, Link, Navigate, Route, Routes, useLocation, BrowserRouter as Router } from 'react-router-dom';
 import Navs from './Navs';
 import LabNav from './Labs/LabsNav';
 import Kanbas from './kanbas';
-import Project from './kanbas/Project';
+// import Project from './kanbas/Project';
+// import Navbar from './kanbas/usersNew/users/ProjectNav';
+import Project from './kanbas/usersNew/users';
 
 
 function App() {
   
   return (
-    <HashRouter>
+    // <HashRouter>
+    <Router>
       <div>
-        {/* <Routes>
-          <Route path="/Kanbas/*" element={<Kanbas/>} />
-        </Routes> */}
-        
-        {/* <Kanbas/> */}
-        {/* <h1>React Labs</h1> */}
-        {/* <Navs/> */}
         <Routes>        
           <Route path="/" element={<Navigate to="/Labs"/>} />
-          <Route path="/hello" element={<HelloWorld/>}/>
+          <Route path="/hello" element={<HelloWorld/>}/> 
           <Route path="/Labs/*" element={<LabNav/>}/>
           <Route path="/Kanbas/*" element={<Kanbas/>}/>
-          {/* <Route path="/Signin" element={<Signin />} /> */}
-          <Route path="/Project/*" element={<Project/>} />
+          <Route path="/project/*" element={<Project/>} />
         </Routes>  
 
       </div>
-    </HashRouter>
+      </Router>
+    // </HashRouter>
     
     // <div>     
     //   <HelloWorld/> 

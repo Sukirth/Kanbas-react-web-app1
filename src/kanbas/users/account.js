@@ -12,13 +12,14 @@ function Account() {
   const navigate = useNavigate();
   const fetchAccount = async () => {
     const account = await client.account();
+    console.log(account);
     setAccount(account);
   };
 
   const save = async () => {
     console.log("********save ", account);
-    await client.updateUser(account);
-  };
+    const res = await client.updateUser({...account});
+     };
 
   const signout = async () => {
     await client.signout();
@@ -31,8 +32,9 @@ function Account() {
       } else {
         fetchAccount();
       }
-  
   }, []);
+
+
   return (
 
     <div className="w-50">
@@ -85,9 +87,9 @@ function Account() {
                     </div>
                   </div>
                   <div className="mb-3 row">
-                    <div className="col-sm-6 ">
+                    {/* <div className="col-sm-6 ">
                       <button type="submit" className="btn btn-primary">Submit</button>
-                    </div>
+                    </div> */}
                     <div className="col-sm-6 ">
                       <button type="submit" onClick={save} className="btn btn-primary">Save</button>
                     </div>
