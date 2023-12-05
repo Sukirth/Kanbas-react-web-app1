@@ -1,8 +1,8 @@
-import Signin from "../users/signin";
-import Account from "../users/account";
+import Signin from "../usersNew/users";
+import Account from "../usersNew/users/account";
 import {Route, Routes, BrowserRouter as Router, Navigate } from "react-router-dom";
-import UserTable from "../users/table";
-import Signup from "../users/signup";
+import UserTable from "../usersNew/users/table";
+import Signup from "../usersNew/users/signup";
 function Project() {
   return (
   

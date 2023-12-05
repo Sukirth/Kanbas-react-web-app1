@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 function Navbar() {
     const { pathname } = useLocation();
     return (
-      <nav className="nav nav-tabs mt-2">
-          <li>
+      <nav className="nav nav-pills mt-2">
+        <li>
             <Link to="/project/home"  className={`nav-link ${pathname.includes("home") ? "active" : ""}`}>Home</Link>
           </li>
           <li>

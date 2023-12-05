@@ -36,44 +36,68 @@ const { id } = useParams();
     <div className="container mt-5 w-50">
      <h1 className="text-center">Account</h1>
       {account && (
-        <div>
-            <input className="form-control mb-2" placeholder="Username" value={account.username}
-            onChange={(e) => setAccount({ ...account,
-              username: e.target.value })}/> 
-          <input className="form-control mb-2" type="password" placeholder="Password"value={account.password}
-            onChange={(e) => setAccount({ ...account,
-              password: e.target.value })}/>
-          <input className="form-control mb-2" placeholder="First name" value={account.firstName}
-            onChange={(e) => setAccount({ ...account,
-              firstName: e.target.value })}/>
-          <input className="form-control mb-2" placeholder="Last name" value={account.lastName}
-            onChange={(e) => setAccount({ ...account,
-              lastName: e.target.value })}/>
-          {/* <input className="form-control mb-2" placeholder="DOB" value={account.dob}
-            onChange={(e) => setAccount({ ...account,
-              dob: e.target.value })}/> */}
-          <input className="form-control mb-2" placeholder="Email" value={account.email}
-            onChange={(e) => setAccount({ ...account,
-              email: e.target.value })}/>
-          <select className="form-control mb-2" onChange={(e) => setAccount({ ...account,
-              role: e.target.value })}>
-            <option value="USER">User</option>
-            <option value="ADMIN">Admin</option>
-            <option value="FACULTY">Faculty</option>
-            <option value="STUDENT">Student</option>
-          </select>
-          <div className="mt-4 text-center">
-          <button className="btn btn-primary me-2" onClick={save}>
-     Save
-  </button>
-  <button className="btn btn-danger me-2" onClick={signout}>
-    Signout
-  </button>
-  <Link to="/project/admin/users" className="btn btn-warning ">
-    Users
-  </Link>
-  </div>
+       <div className="row">
+              <div className="col-md-6 offset-md-3">
+               
+                  <div className="mb-3 row align-items-center">
+                    <label for="password" className="col-sm-4 col-form-label font-weight-bold">Password</label>
+                    <div className="col-sm-8">
+                      <input type="text" className="form-control" id="password" value={account.password} onChange={(e) => setAccount({ ...account, password: e.target.value })} />
+                    </div>
+                  </div>
+                  <div className="mb-3 row align-items-center">
+                    <label for="firstName" className="col-sm-4 col-form-label font-weight-bold">First Name</label>
+                    <div className="col-sm-8">
+                      <input type="text" className="form-control" id="firstName" value={account.firstName} onChange={(e) => setAccount({ ...account, firstName: e.target.value })} />
+                    </div>
+                  </div>
+                  <div className="mb-3 row align-items-center">
+                    <label for="lastName" className="col-sm-4 col-form-label font-weight-bold">Last Name</label>
+                    <div className="col-sm-8">
+                      <input type="text" className="form-control" id="lastName" value={account.lastName} onChange={(e) => setAccount({ ...account, lastName: e.target.value })} />
+                    </div>
+                  </div>
+                  <div className="mb-3 row align-items-center">
+                    <label for="dob" className="col-sm-4 col-form-label font-weight-bold">Date of Birth</label>
+                    <div className="col-sm-8">
+                      <input type="date" className="form-control" id="dob" value={account.dob} onChange={(e) => setAccount({ ...account, dob: e.target.value })} />
+                    </div>
+                  </div>
+                  <div className="mb-3 row align-items-center">
+                    <label for="email" className="col-sm-4 col-form-label font-weight-bold">Email</label>
+                    <div className="col-sm-8">
+                      <input type="email" className="form-control" id="email" value={account.email} onChange={(e) => setAccount({ ...account, email: e.target.value })} />
+                    </div>
+                  </div>
+                  <div className="mb-3 row align-items-center">
+                    <label for="role" className="col-sm-4 col-form-label font-weight-bold">Role</label>
+                    <div className="col-sm-8">
+                      <select className="form-select" id="role" onChange={(e) => setAccount({ ...account, role: e.target.value })}>
+                        <option value="USER">User</option>
+                        <option value="ADMIN">Admin</option>
+                        <option value="FACULTY">Faculty</option>
+                        <option value="STUDENT">Student</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div className="mb-3 row">
+                    <div className="col-sm-6 ">
+                      <button type="submit" onClick={save} className="btn btn-primary">Save</button>
+                    </div>
+                  </div>
+                  <div className="mb-3 row">
+                    <Link to="/project/admin/users" className="btn btn-warning w-100 col-sm-12">
+                        Users
+                    </Link>
+                  </div>
+                    <div className="mb-3 row">
+                      <button type="submit" onClick={signout} className="btn btn-danger">signout</button>
+                    </div>
+              
+              </div>
         </div>
+      
+        
       )}
     </div>
   );

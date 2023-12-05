@@ -1,7 +1,7 @@
 import React from "react";
 import Signin from "./signin";
 import Account from "./account";
-import { Route, Routes, Navigate } from "react-router-dom"; // Note: Import from "react-router-dom" instead of "react-router"
+import { Route, Routes, Navigate } from "react-router-dom"; 
 import UserTable from "./table";
 import Signup from "./signup";
 import Navbar from "./ProjectNav";
@@ -12,7 +12,7 @@ function Project() {
       <Navbar/>
       <Routes>
         <Route path="/"  element={<Home/>} />
-        <Route path="/home" element={<Home/>}/>
+        <Route path="/home"  element={<Home/>} />
         <Route path="/signin" element={<Signin />} />
         <Route path="/account" element={<Account />} />
         <Route path="/admin/users" element={<UserTable />}/>
