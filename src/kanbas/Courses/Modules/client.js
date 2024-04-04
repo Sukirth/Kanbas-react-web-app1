@@ -4,7 +4,7 @@ import axios from "axios";
 // const API_BASE = process.env.REACT_APP_API_BASE;
 // const MODULES_URL = `${API_BASE}/api/modules`;
 // const COURSES_URL = `${API_BASE}/api/courses`;
-const COURSES_URL = "https://kanbas-node-server-app-5eyi.onrender.com/api/courses";
+const COURSES_URL = "https://kanbas-node-server-app69-0a10f14132d9.herokuapp.com/api/courses";
 const MODULES_URL = "https://kanbas-node-server-app-5eyi.onrender.com/api/modules";
 export const deleteModule = async (moduleId) => {
   const response = await axios
